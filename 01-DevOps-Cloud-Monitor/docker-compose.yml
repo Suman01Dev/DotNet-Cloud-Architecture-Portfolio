@@ -1,0 +1,17 @@
+services:
+  api:
+    build: ./CloudMonitor.Api
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      # THE MAGIC LINE: This mounts your computer's Docker socket into the container
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  client:
+    build: ./CloudMonitor-Client
+    ports:
+      - "4200:80"
+    depends_on:
+      - api
