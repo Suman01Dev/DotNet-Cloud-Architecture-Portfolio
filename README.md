@@ -5,7 +5,7 @@ Welcome to my full-stack architecture portfolio! This repository contains a coll
 ## 👨‍💻 About the Developer
 **Suman Das** | Full Stack Developer | .NET Core • Angular • SQL Server
 * **Focus:** Building scalable REST APIs, microservices, and cloud-native applications.
-* **LinkedIn:** [Insert your LinkedIn Link here]
+* **LinkedIn:** www.linkedin.com/in/suman-das-dev01
 
 ---
 
